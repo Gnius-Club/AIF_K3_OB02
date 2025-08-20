@@ -1,24 +1,223 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión K3</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión K3 Kínder 2</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡La Caja Mágica que Aprende y Descubre!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Simular el concepto de "entrenamiento" con datos.</li>
+<li>Entender que el "conocimiento" de una máquina depende de los datos que recibe.</li>
+<li>Introducir la idea de clasificación y predicción.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación activa de ejemplos visuales ("datos") para la caja.</li>
+<li>Identificación y verbalización de la razón por la que la "Caja que Aprende" no pudo clasificar un dato desconocido.</li>
+<li>Propuesta de solución para mejorar el "aprendizaje" de la caja, comprendiendo la necesidad de más y diversos datos.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Una caja de zapatos ("La Caja que Aprende").</li>
+<li>Tarjetas dibujadas por los niños: 10 de "caras felices" y 5 de "caras tristes".</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Manos a la Obra con Nuestros Datos Mágicos! ⏰ 10 min</h2>
+<p>Preparamos los ingredientes secretos para que nuestra caja aprenda cosas nuevas.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: ¡Preparando la Misión de los Datos! ⏰ 5 min (Proyectar Diapositiva 1)</h3>
+<p>Invita a los niños a sentarse cómodamente en el área designada para la actividad, como un círculo en el suelo o sus mesas de trabajo. Explica que hoy serán artistas y científicos al mismo tiempo. Presenta la idea de que van a crear "datos" muy especiales para una amiga que pronto conocerán.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, exploradores de la inteligencia artificial! ¿Listos para una misión increíble? ¡Hoy vamos a usar nuestras manos y nuestra imaginación para ayudar a una amiga muy especial! Ella es una caja mágica que quiere aprender a reconocer muchas cosas, ¡pero necesita nuestra ayuda! ¿Saben cómo aprenden las máquinas? ¡Aprenden con 'datos'! Y hoy, ¡nosotros vamos a crear esos 'datos' con nuestros dibujos!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Creando Nuestros Datos: Caritas Felices y Tristes ⏰ 5 min (Proyectar Diapositiva 2)</h3>
+<p>Reparte las tarjetas de dibujo (dos por niño, una para la cara feliz y otra para la triste) y los materiales para dibujar. Anima a cada niño a dibujar en una tarjeta una carita feliz muy grande y sonriente, y en la otra, una carita triste con una expresión que demuestre tristeza. Recuérdales que estos dibujos son muy importantes porque serán el "alimento" de nuestra caja mágica. Circula entre los niños ofreciendo ayuda y elogiando sus creaciones.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Miren! Aquí tenemos dos tarjetas mágicas para cada uno. En una, vamos a dibujar la carita más feliz y sonriente que puedan imaginar. ¡Que se note que está muy, muy contenta! Y en la otra tarjeta, vamos a dibujar una carita un poco triste, quizás con una lagrimita o una boquita hacia abajo. ¡Recuerden, estas caritas son nuestros 'datos' secretos! ¡Son como las pistas que le vamos a dar a nuestra caja para que aprenda! ¡A sus marcas, listos, a dibujar con mucho cariño y concentración!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: ¡Conociendo a la Caja que Aprende! ⏰ 5 min</h2>
+<p>Presentamos a nuestra amiga la caja mágica y le explicamos que la vamos a hacer muy inteligente.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Gran Secreto de la Caja Inteligente ⏰ 3 min (Proyectar Diapositiva 3)</h3>
+<p>Con un aire de misterio, saca la caja de zapatos decorada y preséntala a los niños. Dale un nombre, como "La Caja que Aprende" o "Cerebrito", para personificarla. Explica que no es una caja común, sino una "máquina" muy especial que tiene un superpoder: ¡puede 'aprender' cosas nuevas! Destaca la ranura por donde "comerá" los datos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, atención, pequeños exploradores! ¡Es hora de conocer a nuestra amiga de hoy! ¡Tachán! ¡Ella es La Caja que Aprende! (Muestra la caja con entusiasmo). ¿Parece una caja normal, verdad? ¡Pero no lo es! ¡Ella tiene un gran secreto! Es una máquina muy, muy lista que puede aprender, ¡como nosotros aprendemos en la escuela! Pero para aprender, ¡necesita 'comer'! ¿Saben qué come? ¡Comerá los 'datos' que ustedes dibujaron!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¿Cómo Aprende Nuestra Caja? ¡Con Datos! ⏰ 2 min (Proyectar Diapositiva 4)</h3>
+<p>Refuerza la idea de que la caja necesita "alimento" para volverse inteligente. Conecta directamente los dibujos de los niños con el concepto de "datos" que la caja usará para aprender. Explica que, al igual que ellos aprenden nuevas palabras o números al verlos muchas veces, la caja aprenderá a reconocer las caritas al ver muchos ejemplos.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Así como ustedes aprenden a sumar viendo muchos números o a leer viendo muchas letras, ¡nuestra Caja que Aprende también necesita ver muchas, muchas caritas para entenderlas! ¡Cada carita que dibujaron es un 'pedacito de conocimiento' para ella! ¡Piensen que cada dibujo es una lección! ¡Mientras más lecciones le demos, más inteligente se volverá! ¿Están listos para ser los maestros de nuestra caja?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Entrenando a Nuestra Caja y Descubriendo Secretos! ⏰ 20 min</h2>
+<p>Es hora de enseñar a la caja lo que son las caritas felices y ver si aprendió bien.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Alimentando a la Caja con Alegría ⏰ 10 min (Proyectar Diapositiva 5)</h3>
+<p>Pide a los niños que se pongan de pie y formen una fila o se acerquen de manera ordenada. Indícales que, uno por uno, 'alimenten' la caja metiendo sus tarjetas de caras felices por la ranura. Haz ruidos de 'procesamiento' (como "zzzzzt, bzzzzzt, datos, datos, datos") cada vez que una tarjeta es introducida para hacerlo más divertido y teatral. Anímales a repetir los sonidos contigo. Explica que esto es como enseñarle a la caja a reconocer solo las cosas felices.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente trabajo, pequeños científicos! Ahora viene la parte más emocionante: ¡vamos a 'alimentar' a nuestra Caja que Aprende! ¡Con mucho cuidado, vamos a darle TODAS las caritas felices que dibujamos! ¿Listos? Uno por uno, metan su carita feliz por la ranura. ¡Así, la caja va a 'memorizar' cómo se ve una carita feliz! ¡Y cada vez que metamos una, hagamos sonidos de 'procesamiento' como si la caja estuviera pensando muy, muy fuerte! ¡Repitan conmigo: Zzzzt, bzzzt, datos, datos, datos! ¡Vamos, que la caja tiene mucha hambre de caritas felices!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Prueba de Inteligencia y la Gran Sorpresa ⏰ 10 min (Proyectar Diapositiva 6)</h3>
+<p>Después de que todas las caras felices hayan sido introducidas, anuncia que es hora de la "prueba". Toma una cara feliz nueva (que no haya sido usada en el entrenamiento, si tienes alguna extra) y muéstrasela a la caja. Haz un gesto de 'mirar dentro' de la caja (o simula que la caja 'habla') y anuncia con entusiasmo: "¡Correcto, es feliz!". Luego, con dramatismo, toma una cara triste y muéstrasela a la caja. Repite el gesto de 'mirar dentro' y anuncia con sorpresa: "¡Oh, no! ¡Dijo: '¡Error! No es feliz!'". Pregunta a los niños: "¿Por qué creen que la caja se equivocó? ¿Qué pasó aquí?". Escucha sus respuestas y anótalas mentalmente para el cierre.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡La Caja que Aprende ya comió muchas caritas felices! ¡Parece que está muy llena y muy lista! ¿Creen que ya aprendió todo? ¡Vamos a hacerle una prueba secreta! (Muestra una carita feliz). ¡Caja, caja, ¿qué es esto?! (Mira dentro o acerca tu oreja a la caja con expresión de atención). ¡Guau! ¡Dijo: '¡Correcto, es una carita feliz!' ¡Lo logró! ¡Un aplauso para la caja! Ahora, ¿qué pasará si le muestro esta carita triste? (Muestra la carita triste con intriga). ¡Caja, caja, ¿qué es esto?! (Mira dentro de nuevo, pero esta vez con expresión de sorpresa o confusión). ¡Oh, no! ¡Dijo: '¡Error! ¡No es feliz!'! ¡Se equivocó! ¿Por qué creen que se equivocó nuestra caja? ¿Qué le faltó a nuestra caja para entender que esta carita es triste? ¡Piensen como grandes inventores y detectives!</p>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Nuestra Caja Necesita Más Amigos! ⏰ 5 min</h2>
+<p>Reflexionamos sobre lo que la caja necesita para ser aún más inteligente y completa.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: El Gran Descubrimiento del Aprendizaje Profundo ⏰ 3 min (Proyectar Diapositiva 7)</h3>
+<p>Guía la conversación basándote en las respuestas de los niños. Ayúdalos a verbalizar y concluir que la caja se equivocó con la cara triste porque "nunca le enseñaron" cómo eran las caras tristes. Explica que la caja solo aprendió lo que le mostraron, y si no le mostraron caras tristes, no podía saber qué eran. Usa analogías sencillas como aprender los colores: si solo te enseñan rojo, no sabrás qué es azul.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Exacto, pequeños genios! ¡Lo han descubierto! Nuestra caja solo conocía las caritas felices porque fueron las únicas que le enseñamos. ¡Nunca le mostramos una carita triste! ¡Por eso se confundió! Es como si yo solo les enseñara el color rojo. Si luego les muestro el color azul, ¿sabrían qué es? ¡No! Porque no se los enseñé. Así como nosotros aprendemos cosas nuevas cuando vemos muchos ejemplos de todo, ¡nuestra caja también necesita ver de todo para ser súper lista y no equivocarse!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Misión Cumplida y el Futuro de la IA! ⏰ 2 min (Proyectar Diapositiva 8)</h3>
+<p>Anima a los niños a pensar en cómo podrían 'mejorar' la caja en el futuro. Pregúntales: "¿Qué necesitaría nuestra caja para reconocer también las caras tristes?". Guíalos a la respuesta: "¡Más datos diferentes!". Introduce la idea de que pueden enseñarle caritas enojadas, sorprendidas, etc. Celebra su éxito como "maestros" de la inteligencia artificial y su primera misión cumplida.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Entonces, si queremos que nuestra Caja que Aprende sea la más inteligente del mundo y reconozca todo, ¡todo, todo!, ¿qué necesita? ¡Exacto! ¡Más datos diferentes! ¡No solo caritas felices, sino también caritas tristes, caritas enojadas, caritas sorprendidas! ¡Así aprende mejor y se vuelve una experta en emociones! ¡Hoy fuimos unos maestros increíbles para nuestra caja! ¡Le enseñamos algo muy importante! ¡Misión cumplida, equipo! ¡Son unos campeones de la inteligencia artificial!</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
